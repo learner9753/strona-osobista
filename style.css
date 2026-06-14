@@ -1,0 +1,21 @@
+/* void.css - Clears default browser styling */
+*, *::before, *::after {
+    box-sizing: border-box; /* Makes layout sizing predictable */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
